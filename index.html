@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Forms</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <div class="red-container">
-            
-            
-
-        </div>
-        <div class="yellow-rectangle">
-
-        </div>
+      <div class="red-container">
+        <form action="">
+          <label class="full-name lable">FULL NAME</label>
+          <input type="text" class="inputfield-full-name" />
+          <label class="email lable">EMAIL</label>
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="inputfield-email"
+          />
+          <label class="message-regarding lable">MESSAGE REGARDING</label>
+          <select class="message-dropdown">
+            <option value="#" selected>Choose an option</option>
+            <option value="#">Duck-Spa</option>
+            <option value="#">Duck-hotel</option>
+            <option value="#">Duck-Breakfast</option>
+          </select>
+          <label class="message lable">MESSAGE</label>
+          <input
+            type="text"
+            placeholder="Your Message"
+            class="inputfield-message"
+            id="messageFromUser"
+          />
+          <button class="send-msg-btn" id="sendMessage">
+            <div class="btn-text">SEND MESSAGE</div>
+          </button>
+        </form>
+      </div>
+      <div class="yellow-rectangle"></div>
     </main>
-
-    
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

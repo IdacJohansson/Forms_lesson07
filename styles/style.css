@@ -1,24 +1,121 @@
-
-
-.red-container{
-    position: absolute;
-    left: 243px;
-    top: 153px;
-    max-width: 954px;
-    width: 100%;
-    max-height: 594px;
-    height: 100%;
-    background-color: #BE0909;
+.red-container {
+  position: absolute;
+  left: 243px;
+  top: 153px;
+  max-width: 954px;
+  width: 100%;
+  max-height: 594px;
+  height: 100%;
+  background-color: #be0909;
 }
 
-.yellow-rectangle{
-    position: absolute;
-    left: 852px;
-    top:153px; 
-    max-width: 345px;
-    width: 100%;
-    max-height: 594px;
-    height: 100%;
-    background-color: #FFB039;
+.yellow-rectangle {
+  position: absolute;
+  left: 852px;
+  top: 153px;
+  max-width: 345px;
+  width: 100%;
+  max-height: 594px;
+  height: 100%;
+  background-color: #ffb039;
 }
 
+label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #feffff;
+}
+
+::placeholder {
+  color: #feffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.full-name {
+  position: absolute;
+  left: 65px;
+  top: 64px;
+}
+.inputfield-full-name {
+  position: absolute;
+  left: 65px;
+  top: 116px; /*136px */
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid #9dbebb;
+  background-color: #be0909;
+}
+
+.email {
+  position: absolute;
+  left: 65px;
+  top: 158px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #feffff;
+}
+
+.inputfield-email {
+  position: absolute;
+  left: 65px;
+  top: 200px; /*230px*/
+  width: 160px;
+  border: none;
+  border-bottom: 1px solid #9dbebb;
+  background-color: #be0909;
+}
+
+.message-regarding {
+  position: absolute;
+  left: 65px;
+  top: 261px;
+}
+
+.message-dropdown {
+  position: absolute;
+  left: 65px;
+  top: 300px; /*333px*/
+  width: 160px;
+  border: none;
+  border-bottom: 1px solid #9dbebb;
+  background-color: #be0909;
+}
+
+.message {
+  position: absolute;
+  left: 65px;
+  top: 354px;
+}
+
+.inputfield-message {
+  position: absolute;
+  left: 65px;
+  top: 426px;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid #9dbebb;
+  background-color: #be0909;
+}
+
+.send-msg-btn {
+  position: absolute;
+  left: 164px;
+  top: 482px;
+  width: 202px;
+  height: 48px;
+  background-color: #468189;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0.5, 0.5);
+  border-radius: 40px;
+}
+.btn-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #ffffff;
+}
