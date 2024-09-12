@@ -16,27 +16,37 @@
     <main>
       <div class="red-container">
         <form action="">
-          <label class="full-name lable">FULL NAME</label>
-          <input type="text" class="inputfield-full-name" />
-          <label class="email lable">EMAIL</label>
+          <label class="full-name lable" for="full-name">FULL NAME</label>
+          <input
+            type="text"
+            class="inputfield-full-name"
+            id="full-name"
+            required
+            minlength="2"
+          />
+          <label class="email lable" for="email">EMAIL</label>
           <input
             type="email"
             placeholder="Your Email"
             class="inputfield-email"
+            id="email"
           />
-          <label class="message-regarding lable">MESSAGE REGARDING</label>
-          <select class="message-dropdown">
-            <option value="#" selected disabled>Select</option>
+          <label class="message-regarding lable" for="message-regarding"
+            >MESSAGE REGARDING</label
+          >
+          <select class="message-dropdown" id="message-regarding">
+            <option value="#" selected disabled>...</option>
             <option value="#">Duck-Spa</option>
             <option value="#">Duck-hotel</option>
             <option value="#">Duck-Breakfast</option>
           </select>
-          <label class="message lable">MESSAGE</label>
+          <label class="message lable" for="messageFromUser">MESSAGE</label>
           <input
             type="text"
             placeholder="Your Message"
             class="inputfield-message"
             id="messageFromUser"
+            maxlength="100"
           />
           <button class="send-msg-btn" id="sendMessage">
             <div class="btn-text">SEND MESSAGE</div>
@@ -44,9 +54,8 @@
         </form>
       </div>
       <div class="yellow-rectangle"></div>
-      
     </main>
-    <img class="duck-img" src="/images/duck.png" alt="duck" title="duck">
+    <img class="duck-img" src="/images/duck.png" alt="duck" title="duck" />
     <script src="script.js"></script>
   </body>
 </html>
