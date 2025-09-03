@@ -1,1 +1,3 @@
-# Forms_lesson07
+# Forms
+
+A project to practise forms in HTML and CSS.
